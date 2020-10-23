@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<umbPackage>
+  <info>
+    <package>
+      <name>RecaptchaV3</name>
+      <version>1.0.0</version>
+      <iconUrl></iconUrl>
+      <licence url="https://opensource.org/licenses/MIT">MIT</licence>
+      <url>https://github.com/markwemekamp/RecaptchaV3</url>
+      <requirements type="strict">
+        <major>8</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Shaishav Karnani, Mark Wemekamp</name>
+      <website>https://github.com/markwemekamp/RecaptchaV3</website>
+    </author>
+    <contributors>
+      <contributor>Shaishav Karnani</contributor>
+      <contributor>Mark Wemekamp</contributor>
+    </contributors>
+    <readme><![CDATA[A Recaptcha V3 field for Umbraco forms 8+]]></readme>
+  </info>
+  <files>
+    <file path="bin/RecaptchaV3.dll" orgPath="bin/RecaptchaV3.dll" />
+    <file path="App_Plugins/UmbracoForms/Backoffice/Common/FieldTypes/Recaptcha3.html" orgPath="App_Plugins/UmbracoForms/Backoffice/Common/FieldTypes/Recaptcha3.html" />
+    <file path="App_Plugins/UmbracoForms/Images/recaptcha3.png" orgPath="App_Plugins/UmbracoForms/Images/recaptcha3.png" />
+    <file path="Views/Partials/Forms/Fieldtypes/Fieldtype.Recaptcha3.cshtml" orgPath="Views/Partials/Forms/Fieldtypes/Fieldtype.Recaptcha3.cshtml" />
+    <file path="Views/Partials/Forms/Themes/default/Fieldtypes/Fieldtype.Recaptcha3.cshtml" orgPath="Views/Partials/Forms/Themes/default/Fieldtypes/Fieldtype.Recaptcha3.cshtml" />
+  </files>
+  <Actions />
+  <control />
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>
