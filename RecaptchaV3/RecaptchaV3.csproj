@@ -43,6 +43,7 @@
   <ItemGroup>
     <Content Include="App_Plugins\UmbracoForms\Backoffice\Common\FieldTypes\Recaptcha3.html" />
     <Content Include="App_Plugins\UmbracoForms\Images\recaptcha3.png" />
+    <Content Include="package.xml" />
     <Content Include="Views\Partials\Forms\Fieldtypes\Fieldtype.Recaptcha3.cshtml" />
     <Content Include="Views\Partials\Forms\Themes\default\Fieldtypes\Fieldtype.Recaptcha3.cshtml" />
   </ItemGroup>
