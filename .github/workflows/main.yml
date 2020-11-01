@@ -32,5 +32,4 @@ jobs:
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v2
       with:
-        name: RecaptchaV3.1.0.0.nupkg
         path: RecaptchaV3.1.0.0.nupkg
