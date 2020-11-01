@@ -26,3 +26,5 @@ jobs:
     - name: Build Web App
       run: msbuild RecaptchaV3.sln /p:Configuration=Release
  
+    - name: Create nuget Package
+      run: nuget pack RecaptchaV3/RecaptchaV3.nuspec
