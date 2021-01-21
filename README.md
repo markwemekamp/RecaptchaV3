@@ -10,3 +10,14 @@ Changes to the original project:
 - Hides the form in the frontend by default
 - Allows you to set a score threshold
 - The score is posted as part of the entry
+
+## Building a nuget package
+
+```shell 
+nuget pack .\RecaptchaV3\RecaptchaV3.nuspec
+```
+## Building an Umbraco package
+
+```shell 
+umbpack pack .\RecaptchaV3\package.xml
+```
