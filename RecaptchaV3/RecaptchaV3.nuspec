@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>RecaptchaV3</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Shaishav Karnani, Mark Wemekamp</authors>
     <owners>Shaishav Karnani, Mark Wemekamp</owners>
     <projectUrl>https://github.com/markwemekamp/RecaptchaV3</projectUrl>
