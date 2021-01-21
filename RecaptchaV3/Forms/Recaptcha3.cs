@@ -65,9 +65,13 @@ namespace RecaptchaV3.Forms
 
         public override IEnumerable<string> ValidateField(Form form, Field field, IEnumerable<object> postedValues, HttpContextBase context, IFormStorage formStorage)
         {
-            var fieldValue = field.Values.First().ToString();
+            var fieldValueObject = field.Values.FirstOrDefault();
 
-            if (fieldValue == "failed") return new List<string> { "Recaptcha Failed." };
+            if (fieldValueObject == null) return new List<string> { "Recaptcha token not set." };
+
+            var fieldValue = fieldValueObject.ToString();
+
+            if (fieldValue == "failed") return new List<string> { "Recaptcha failed." };
 
             if (!double.TryParse(fieldValue, out var score))
             {
@@ -80,8 +84,6 @@ namespace RecaptchaV3.Forms
                 scoreThreshold = 0.5;
             }
             if (score < scoreThreshold) return new List<string> { "Recaptcha score too low." };
-
-            field.Values.Add("test");
 
             return new List<string>();
         }
